@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Previo</string>
+    <string name="str_Listados_tittle_Referencias">References</string>
+    <string name="str_Listados_tittle_Facturas">Invoices / PO</string>
+    <string name="str_Listados_tittle_Item">Items</string>
+    <string name="str_Listados_tittle_Busqueda">Search</string>
+    <string name="str_Listados_tab_Revisado">Revised</string>
+    <string name="str_Listados_tab_EnRevision">In Review</string>
+    <string name="str_Listados_tab_SinRevision">Pending</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="usuario_previo">Previous User</string>
+
+    <!-- Tags de Sincronización -->
+    <string name="sync_cargando">Finished...</string>
+    <!-- Tags de Sincronización Fin -->
+
+
+    <!-- Lista de filtros de listados -->
+    <string name="str_lista_Facturas">Invoices / PO: </string>
+    <string name="str_lista_Noms">NOMS: </string>
+    <string name="str_lista_Item">Items: </string>
+    <string name="str_lista_R">R: </string>
+    <string name="str_lista_ER">IR: </string>
+    <string name="str_lista_SR">P: </string>
+
+    <!-- Nom campo requerido -->
+    <string name="nom_requerido">Capture: </string>
+    <string name="nom_cambiar_estatus"> Change Status to Pending </string>
+    <string name="nom_estatus_revisada"> Revised NOM </string>
+    <string name="nom_titulo"> NOM Review: </string>
+    <string name="nom_faltan_requeridos">Missing Required Data</string>
+    <string name="str_Listados_faltaFoto">Photo missing</string>
+
+    <!-- Alta de ítem -->
+    <string name="str_altaitem_txv_altaitem">Record Item</string>
+    <string name="str_altaitem_txt_noparte">Part Number</string>
+    <string name="str_altaitem_txt_norma">Standard</string>
+    <string name="str_altaitem_txt_descripcion">Comments</string>
+    <string name="str_altaitem_txt_valorpartida">Value</string>
+    <string name="str_altaitem_txt_contenedor">Container</string>
+    <string name="str_altaitem_txt_cantidad">Quantity</string>
+    <string name="str_altaitem_txt_fraccion_arancelaria">HS Code</string>
+    <string name="str_altaitem_txt_sku">SKU</string>
+    <string name="str_altaitem_txt_unidad_medida">Unit of Measure</string>
+    <string name="str_altaitem_txtv_unidad_nom">NOM</string>
+    <string name="str_altaitem_btn_addnom">Add NOM</string>
+    <string name="str_altaitem_btn_saveitem">Save Item</string>
+    <string name="str_altaitem_btn_cancelitem">Cancel Item</string>
+    <string name="str_altaitem_spn_feedbacktype1">NOM 1</string>
+    <string name="str_altaitem_spn_feedbacktype2">NOM 2</string>
+    <string name="str_altaitem_spn_feedbacktype3">NOM 3</string>
+    <string name="str_altaitem_spn_feedbacktype4">NOM 4</string>
+    <string name="str_altaitem_spn_feedbacktype5">NOM 5</string>
+    <string name="str_altaitem_spn_feedbacktype6">NOM 6</string>
+    <string name="str_altaitem_spn_feedbacktype7">NOM 7</string>
+    <string name="str_altaitem_spn_feedbacktype8">NOM 8</string>
+    <string name="str_altaitem_spn_feedbacktype9">NOM 9</string>
+    <string name="str_altaitem_spn_feedbacktype10">NOM 10</string>
+    <string name="str_altaitem_spn_feedbacktype11">NOM 11</string>
+    <string name="str_altaitem_spn_feedbacktype12">NOM 12</string>
+    <string name="str_altaitem_spn_feedbacktype13">NOM 13</string>
+    <string name="str_altaitem_spn_feedbacktype14">NOM 14</string>
+    <string name="str_altaitem_spn_feedbacktype15">NOM 15</string>
+
+    <!-- Alta de ítem Fin -->
+
+    <string name="usuario">User</string>
+    <string name="password">Password</string>
+    <string name="TextoBotonEntrar">Enter</string>
+    <string name="drawer_close">Enter</string>
+    <string name="drawer_open">Enter</string>
+    <string name="textViewRevisionNOM">NOM Review</string>
+    <string name="str_configuracion_txv_titulo">Settings</string>
+    <!-- Lista de titulos de navegacion -->
+    <string-array name="nav_options">
+        <item>Reference</item>
+        <item>Invoice / PO</item>
+        <item>Item</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>Logout</item>
+    </string-array>
+    <!-- Lista de iconos de navegacion -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@android:drawable/ic_menu_help</item>
+        <item>@android:drawable/ic_lock_lock</item>
+        <!--
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_share</item>
+        -->
+    </array>
+
+    <string name="feedbacktype16">NOM 1</string>
+    <string name="feedbacktype26">NOM 2</string>
+    <string name="feedbacktype36">NOM 3</string>
+    <string name="feedbacktype46">NOM 4</string>
+
+    <!-- Desglose de Cantidad -->
+
+    <string name="str_desglose_cantidad_txv_desglose_cantidad">Quantity Detail</string>
+    <string name="str_desglose_cantidad_txt_cantidad">Quantity</string>
+    <string name="str_desglose_cantidad_txt_descripcion">Description</string>
+    <string name="str_desglose_cantidad_spn_pais">Country</string>
+    <string name="str_desglose_cantidad_spn_mex">Mexico</string>
+    <string name="str_desglose_cantidad_spn_ch">China</string>
+    <string name="str_desglose_cantidad_spn_jp">Japan</string>
+    <string name="str_desglose_cantidad_spn_al">Germany</string>
+    <string name="str_desglose_cantidad_spn_fr">France</string>
+    <string name="str_desglose_cantidad_spn_co">Korea</string>
+    <string name="str_desglose_cantidad_spn_usa">USA</string>
+    <string name="str_desglose_cantidad_spn_ca">Canada</string>
+    <string name="str_desglose_cantidad_spn_ak">Alaska</string>
+    <string name="str_desglose_cantidad_spn_sin">Singapore</string>
+    <string name="str_desglose_cantidad_spn_in">England</string>
+    <string name="str_desglose_cantidad_spn_br">Brazil</string>
+    <string name="str_desglose_cantidad_spn_ar">Argentina</string>
+    <string name="str_desglose_cantidad_spn_por">Portugal</string>
+    <string name="str_desglose_cantidad_spn_rus">Russia</string>
+
+    <!-- Desglose de Cantidad fin -->
+    <!-- Strings aidee -->
+    <string name="str_configuracion_btn_guardar">Save</string>
+    <string name="str_configuracion_txt_lenguaje">Spanish</string>
+    <string name="str_configuracion_txt_puerto">Port</string>
+    <string name="str_configuracion_txt_url">URL</string>
+    <string name="str_configuracion_txv_estatus">Connected to server</string>
+    <string name="str_configuracion_txv_sincronizacion">Time Synchronization</string>
+    <string name="str_revisionitem_txv_titulo">Item to check</string>
+    <string name="str_revisionitem_txv_referenciaEtiqueta">No. Reference:</string>
+    <string name="str_revisionitem_txv_referenciaValor">1254879</string>
+    <string name="str_revisionitem_txv_razonSocialEtiqueta">Trade Name:</string>
+    <string name="str_revisionitem_txv_razonSocialValor">Adquem S. C.</string>
+    <string name="str_revisionitem_txv_cantidadEtiqueta">Quantity:</string>
+    <string name="str_revisionitem_txv_cantidadValor">8</string>
+    <string name="str_revisionitem_txv_cantidadRecibidaEtiqueta">Quantity received:</string>
+    <string name="str_revisionitem_btn_comentariosLogistics">Logistics Description</string>
+    <string name="str_revisionitem_btn_comentarios">Comments</string>
+    <string name="str_revisionitem_txv_comentariosGenerales">General read only Comments</string>
+    <string name="textViewFacturas">Invoice / PO:</string>
+    <string name="textViewNumParte">Part Number:</string>
+    <string name="textViewVoltios">Volts:</string>
+    <string name="str_revisionitem_txv_listadoNomsTitulo">NOMS LIST</string>
+    <string name="spinner_header_paises">Countries</string>
+    <string name="str_listadofact_txv_fechaFactEtiqueta">Date: </string>
+    <string name="spinner_header_estatus">Status</string>
+    <string name="feedbacktypeE1">Status1</string>
+    <string name="feedbacktypeE2">Status2</string>
+    <string name="feedbacktypeE3">Status3</string>
+    <string name="feedbacktypeE4">Status4</string>
+    <string name="spinner_header_grafico">Graphic</string>
+    <string name="feedbacktypeG1">Graphic1</string>
+    <string name="feedbacktypeG2">Graphic2</string>
+    <string name="feedbacktypeG3">Graphic3</string>
+    <string name="feedbacktypeG4">Graphic4</string>
+    <string name="spinner_header_instructivo">Instructive</string>
+    <string name="feedbacktypeI1">Instructive1</string>
+    <string name="feedbacktypeI2">Instructive2</string>
+    <string name="feedbacktypeI3">Instructive3</string>
+    <string name="feedbacktypeI4">Instructive4</string>
+
+    <string-array name="feedbacktypelistInstructivo">
+        <item>@string/feedbacktypeI1</item>
+        <item>@string/feedbacktypeI2</item>
+        <item>@string/feedbacktypeI3</item>
+        <item>@string/feedbacktypeI4</item>
+    </string-array>
+
+    <string name="spinner_header_advertencia">Warning</string>
+    <string name="feedbacktypeA1">Warning1</string>
+    <string name="feedbacktypeA2">Warning2</string>
+    <string name="feedbacktypeA3">Warning3</string>
+    <string name="feedbacktypeA4">Warning4</string>
+    <string name="spinner_header_garantia">Warranty</string>
+    <string name="feedbacktypeGa1">Warranty1</string>
+    <string name="feedbacktypeGa2">Warranty2</string>
+    <string name="feedbacktypeGa3">Warranty3</string>
+    <string name="feedbacktypeGa4">Warranty4</string>
+    <string name="str_listadofact_txv_Titulo">Reference</string>
+    <string name="str_listadofact_txv_referenciaEtiqueta">No. Reference: </string>
+    <string name="str_listadofact_txv_arriboEtiqueta">Date of Arrival: </string>
+    <string name="str_listadofact_txv_ejecutivoEtiqueta">Executive: </string>
+    <string name="str_listadofact_txv_clasificadorEtiqueta">Classifier: </string>
+    <string name="str_listadofact_txv_plazaEtiqueta">Plaza: </string>
+    <string name="str_listadofact_txv_pedimentoEtiqueta">Pedimento: </string>
+    <string name="str_listadofact_txv_clienteEtiqueta">Trade name: </string>
+    <string name="str_listadofact_btn_agregarExcedente">Add Surplus</string>
+    <string name="str_listadofact_btn_forzarRevision">Force Review</string>
+    <string name="str_items_txv_Titulo">Invoice / PO</string>
+    <string name="textViewFechaFacturaEtiqueta">Date: </string>
+    <string name="str_items_txv_facturaEtiqueta">No.: </string>
+    <string name="str_listadofact_txv_contenedorEtiqueta">Container: </string>
+    <string name="str_items_txv_ordenCompraEtiqueta">Purchase Order: </string>
+    <string name="str_items_txv_rfcEtiqueta">RFC: </string>
+    <string name="textViewProveedorEtiqueta">Supplier: </string>
+
+    <!-- Lista de textos e imagenes de galleria referencia -->
+    <string name="str_galeriaReferencia_img_galeria">Gallery</string>
+    <string name="str_galeriaReferencia_txv_fotoVideo">Photo / Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="str_revisionitem_btn_NOM1">NOM 1</string>
+    <string name="str_revisionitem_btn_NOM2">NOM 2</string>
+    <string name="str_revisionitem_btn_NOM3">NOM 3</string>
+    <string name="str_revisionitem_txt_unidadEtiqueta">Unit of measure:</string>
+    <string name="str_revisionitem_txt_unidadValor">Kg</string>
+    <string name="str_desglose_btn_addnom">Add Detail</string>
+    <string name="str_desglose_btn_savedesglose">Save Details</string>
+    <string name="str_forzarrevision_txv_titulo">Force review</string>
+    <string name="str_forzarrevision_btn_aceptar">Accept</string>
+    <string name="str_forzarrevision_txv_mensajeConfirmacion">Are you sure to change the status of the reference to Revised?</string>
+    <string name="str_forzarrevision_txt_comentariosCierre">Comments to force the review</string>
+    <string name="str_revisionitem_txv_paisOrigenEtiqueta">Country of origin:</string>
+    <string name="str_revisionitem_btn_guardarRevision">Save review</string>
+    <string name="str_revisionitem_txv_paisOrigenValor">Country of origin of the first breakdown</string>
+    <string name="str_revisionitem_txt_comentarios">Comments</string>
+    <string name="str_main_txt_tituloUPC">UPC value</string>
+    <string name="str_main_txt_mensajeUPC">Confirm the UPC value scanned:</string>
+    <string name="str_main_btn_aceptarUPC">Accept</string>
+    <string name="str_main_btn_cancelarUPC">Cancel</string>
+    <string name="str_toast_errorlogin">Check your name and / or password.</string>
+    <string name="str_toast_errorAccount">Warning!, Accounts were deleted manually.</string>
+    <string name="str_progressdialog_synctittle">Syncing</string>
+    <string name="str_progressdialog_syncmessage">Downloading ......</string>
+
+    <!-- Lista de titulos de navegacion -->
+    <string name="str_ayuda_txv_lorem_ipsum">Need Help</string>
+
+    <!-- Lista de iconos de navegacion -->
+
+
+    <!-- Strings para diseño y look and feel -->
+
+    <string name="fondoblanco">#FFFFFF</string>
+
+    <!-- Toast aidee -->
+    <string name="str_alta_toast_referenciaSincronizada">Once synchronized, Item addition is not allowed.</string>
+    <string name="str_alta_dialog_msg_eliminacion">Are you sure you want to delete the values ​​on the screen?</string>
+    <string name="str_alta_dialog_titulo_eliminacion">Clean screen</string>
+    <string name="str_alta_toast_nomRepetida">Repeated NOM.</string>
+    <string name="str_alta_dialog_msg_eliminaNOM">Are you sure you want to remove NOM from the list?</string>
+    <string name="str_alta_dialog_titulo_eliminaNOM">Remove NOM</string>
+    <string name="str_alta_toast_confirmacion">Item successfully stored.</string>
+    <string name="str_alta_toast_faltaInfo">Incomplete data to register the item.</string>
+    <string name="str_alta_toast_errorAlta">Failed to insert item.</string>
+    <string name="str_desglose_cantidad_txv_desglose_cantidad2">Item:</string>
+    <string name="str_forzarRevision_toast_referenciaSincronizada">Once synchronized, forcing review is not allowed.</string>
+    <string name="str_forzarRevision_toast_confirmacion">Revised reference.</string>
+    <string name="str_forzarRevision_toast_errorForzar">Failed to force the revision of reference.</string>
+    <string name="str_forzarRevision_toast_faltanFotos">There must be at least one starting and ending picture.</string>
+    <string name="str_forzarRevision_toast_faltanDatos">Incomplete data to force the review.</string>
+    <string name="str_revisionItem_toast_itemSincronizado">Once synchronized, Item updation is not allowed.</string>
+    <string name="str_revisionItem_toast_itemRevisado">Revised item.</string>
+    <string name="str_revisionItem_toast_itemActualizado">Updated item.</string>
+    <string name="str_revisionItem_toast_noDatos">There aren´t new data to update.</string>
+    <string name="str_desgloses_dialog_titulo_limpia">Clean screen</string>
+    <string name="str_desgloses_dialog_msg_limpia">Are you sure you want to delete Details of the screen?</string>
+    <string name="str_desgloses_toast_itemSincronizadoElimina">Once synchronized, Details deletion is not allowed.</string>
+    <string name="str_desgloses_toast_itemSincronizadoGuarda">Once synchronized, Details addition is not allowed.</string>
+    <string name="str_desgloses_toast_desgloseRepetido">Repeated Detail</string>
+    <string name="str_desgloses_toast_faltanDatos">Incomplete data to add Detail to the list.</string>
+    <string name="str_desgloses_toast_validaCantidad">The quantity must be greater than zero.</string>
+    <string name="str_desgloses_toast_desgloseEliminado">Detail from database was deleted.</string>
+    <string name="str_desgloses_toast_errorEliminarDesglose">Failed to delete Detail from database.</string>
+    <string name="str_desgloses_dialog_titulo_eliminacion">Delete Detail</string>
+    <string name="str_desgloses_dialog_msg_eliminacion">Are you sure you want to delete the Details of the screen and the database?</string>
+    <string name="str_desgloses_dialog_msg_eliminacion1">Are you sure you want to delete the Detail of the screen?</string>
+    <string name="str_desgloses_toast_itemSincronizadoElimina1">Once synchronized, Details deletion is not allowed.</string>
+    <string name="str_desgloses_toast_desglosesGuardados">Saved Detail.</string>
+    <string name="str_desgloses_toast_noHayNuevos">There aren´t new Details to save.</string>
+    <string name="str_desgloses_toast_desglosesEliminados">Details from database was deleted.</string>
+    <string name="str_desgloses_toast_errorEliminarDesgloses">Failed to delete the Details from database.</string>
+    <string name="str_nomRevision_toast_guardarItemSincronizado">Once synchronized, NOM updation is not allowed.</string>
+    <string name="str_nomRevision_toast_eliminarItemSincronizado">Once synchronized, NOM deletion is not allowed.</string>
+    <string name="str_toast_erroserver">Unreachable server</string>
+
+    <!-- Lista de títulos de navegación -->
+    <string name="str_itemMenu_itm_referencia">Referencia</string>
+    <string name="str_itemMenu_itm_factura">Factura</string>
+    <string name="str_itemMenu_itm_item">Ítem</string>
+    <string name="str_itemMenu_itm_configuracion">Configuración</string>
+    <string name="str_itemMenu_itm_ayuda">Ayuda</string>
+    <string name="str_itemMenu_itm_cerrarSesion">Cerrar sesión</string>
+
+    <!-- Lista de textos para galerías Ítem -->
+    <string name="str_galerias_txtv_tituloGaleriaFotoItem">Item´s Pictures Gallery</string>
+    <string name="str_galerias_txtv_tituloGaleriaVideoItem">Item´s Videos Gallery</string>
+    <string name="str_galerias_toast_sinFotos">No pictures to show</string>
+    <string name="str_galerias_toast_sinVideosItem">No videos to show</string>
+    <string name="str_galerias_log_sinDirectorioFotoTag">Item´s Pictures Gallery</string>
+    <string name="str_galerias_log_sinDirectorioFotoMsg">The Path for Item´s Pictures Gallery is Not Found</string>
+    <string name="str_galerias_log_sinDirectorioVideoTag">Item´s Videos Gallery</string>
+    <string name="str_galerias_log_sinDirectorioVideoMsg">The Path for Gallery Item Video Not Found</string>
+    <string name="str_galerias_asyncTask_galeriaFotosTitulo">Item´s Pictures Gallery</string>
+    <string name="str_galerias_asyncTask_galeriaVideosTitulo">Item´s Videos Gallery</string>
+    <string name="str_galerias_log_transformarArchivoFotoItemTag">Transformar Archivo Foto Ítem: </string>
+    <string name="str_galerias_log_transformarArchivoFotoItemMsg">Error al transformar el Archivo Foto Ítem a Bitmap</string>
+
+    <!-- Lista de textos para Galerías de Inicio y Fin Referencia -->
+    <string name="str_galerias_txtv_tituloGaleriaFotoInicioRef">Reference starting pictures gallery</string>
+    <string name="str_galerias_txtv_tituloGaleriaFotoFinRef">Reference ending Pictures Gallery</string>
+    <string name="str_galerias_txtv_tituloGaleriaVideoRef">Videos Gallery Reference</string>
+    <string name="str_galerias_toast_sinFotosInicio">No starting pictures available to show</string>
+    <string name="str_galerias_toast_sinFotosFin">No ending pictures available to show</string>
+    <string name="str_galerias_toast_sinVideosRef">No videos available to show</string>
+    <string name="str_galerias_log_sinDirectorioFotoInicioTag">Galería Foto Inicio Referencia</string>
+    <string name="str_fotos_log_sinDirectorioFotoInicioTag">Fotografía Inicio Referencia</string>
+    <string name="str_fotos_log_sinDirectorioVideoRefTag">Video Referencia</string>
+    <string name="str_galerias_log_sinDirectorioFotoInicioMsg">El Directorio de Galería Foto Inicio Referencia no fue Encontrado</string>
+    <string name="str_galerias_log_sinDirectorioFotoFinTag">Galería Foto Fin Referencia</string>
+    <string name="str_fotos_log_sinDirectorioFotoFinTag">Fotografía Fin Referencia</string>
+    <string name="str_galerias_log_sinDirectorioFotoFinMsg">El Directorio de Galería Foto Fin Referencia no fue Encontrado</string>
+    <string name="str_galerias_log_sinDirectorioVideoRefTag">Galería Video Referencia</string>
+    <string name="str_galerias_log_sinDirectorioVideoRefMsg">El Directorio de Galería Video Referencia no fue Encontrado</string>
+    <string name="str_galerias_asyncTask_galeriaFotosInicioTiulo">Reference starting pictures gallery</string>
+    <string name="str_galerias_asyncTask_galeriaFotosFinTiulo">Reference ending pictures gallery</string>
+    <string name="str_galerias_asyncTask_galeriaVideosRefTitulo">References Videos Gallery</string>
+    <string name="str_galerias_asyncTask_galeriasMensaje">Loading . . .</string>
+    <string name="str_menu_btn_actionDelete">Delete</string>
+
+    <!-- Lista de textos para fotografía Referencia -->
+    <string name="str_galeriaRef_log_idPadreRefTag">IdPadre Referencia</string>
+    <string name="str_galeriaRef_log_idPadreRefMsg">Valor Recuperado idPadre Factura</string>
+    <string name="str_galeriaRef_log_idPadreRefGalTag">IdPadre Ref a GaleriaInicio</string>
+    <string name="str_galeriaRef_log_idPadreRefGalMsg">Mandando idPadre a Galeria Referencia Inicio: </string>
+    <string name="str_galeriaRef_log_idPadreRefGalFinTag">IdPadre Ref a GaleriaFin</string>
+    <string name="str_galeriaRef_log_idPadreRefGalFinMsg">Mandando idPadre a Galeria Referencia Fin: </string>
+    <string name="str_galeriaRef_log_idPadreRefGalVideoTag">IdPadre Ref a GaleriaVideo</string>
+    <string name="str_galeriaRef_log_idPadreRefGalVideoMsg">Mandando idPadre a Galeria Video: </string>
+    <string name="str_galeriaRef_log_rutaDirFotoInicioTag">Ruta Directorio FotoInicio</string>
+    <string name="str_galeriaRef_log_rutaDirSinSDMsg">El almacenamiento externo no esta listo para lectura/escritura</string>
+    <string name="str_galeriaRef_toast_rutaArchivoFotoInicio">Home Reference Photo File Was Not Generated</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoInicioTag">Home Reference Photo File</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoInicioMsg">No se generó el archivo de Foto Inicio Referencia</string>
+    <string name="str_galeriaRef_log_rutaDirFotoFinTag">Ruta Directorio FotoFin</string>
+    <string name="str_galeriaRef_toast_rutaArchivoFotoFin">Final Reference Photo File Was Not Generated</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoFinTag">Archivo FotoFin Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoFinMsg">No se generó el archivo de Foto Fin Referencia</string>
+    <string name="str_galeriaRef_log_rutaDirVideoTag">Ruta Directorio Video Referencia</string>
+    <string name="str_galeriaRef_toast_rutaArchivoVideo">Reference Video File Was Not Generated</string>
+    <string name="str_galeriaRef_log_rutaArchivoVideoTag">Archivo Video Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoVideoMsg">No se generó el archivo de Video Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarFotoInicio">Nombre FotoInicio Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarFotoFin">Nombre FotoFin Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarVideo">Nombre Video Referencia</string>
+    <string name="str_galeriaRef_log_errorImagenTag">Error Imagen</string>
+    <string name="str_galeriaRef_log_errorSinImagenRef">No se encontro la Imagen Referencia: </string>
+    <string name="str_galeriaRef_log_errorDimensionarImagenRef">Error el redimensionar la Imagen Referencia: </string>
+    <string name="str_galeriaRef_log_eliminarFotoInicioTag">Act path galeria inicio: </string>
+    <string name="str_galeriaRef_log_eliminarFotoInicioMsg">pathDelete.get(i) inicio: </string>
+    <string name="str_galeriaRef_log_eliminarFotoFinTag">Act path galeria fin: </string>
+    <string name="str_galeriaRef_log_eliminarFotoFinMsg">pathDelete.get(i) fin: </string>
+
+    <!-- Lista de textos para fotografía Ítem -->
+    <string name="str_galeriaItem_log_idPadreItemTag">IdPadre Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemMsg">Valor Recuperado IdPadre de Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemGalTag">IdPadre Item a Galeria Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemGalMsg">Mandando idPadre a Galeria Ítem: </string>
+    <string name="str_galeriaItem_log_idPadreItemGalVideoTag">IdPadre Ítem a GaleriaVideo</string>
+    <string name="str_galeriaItem_log_idPadreItemGalVideoMsg">Mandando IdPadre Ítem a Galeria Video: </string>
+    <string name="str_galeriaItem_log_rutaDirFotoItemTag">Ruta Directorio Foto Item</string>
+    <string name="str_galeriaItem_log_rutaDirSinSDMsg">El almacenamiento externo no esta listo para lectura/escritura</string>
+    <string name="str_galeriaItem_toast_rutaArchivoFotoItem">Item´s Photo File Was Not Generated</string>
+    <string name="str_galeriaItem_log_rutaArchivoFotoItemTag">Archivo Foto Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoFotoItemMsg">No se generó el archivo de Foto Ítem</string>
+    <string name="str_galeriaItem_log_rutaDirVideoTag">Ruta Directorio Video Ítem</string>
+    <string name="str_galeriaItem_toast_rutaArchivoVideoItem">Item´s Video File Was Not Generated</string>
+    <string name="str_galeriaItem_log_rutaArchivoVideoItemTag">Archivo Video Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoVideoItemMsg">No se generó el archivo de Video Referencia</string>
+    <string name="str_galeriaItem_log_nombreTomarFotoItem">Nombre Foto Ítem</string>
+    <string name="str_galeriaItem_log_nombreTomarVideoItem">Nombre Video Ítem</string>
+    <string name="str_galeriaItem_log_errorImagenItemTag">Error Imagen</string>
+    <string name="str_galeriaItem_log_errorSinImagenItem">No se encontro la Imagen Ítem: </string>
+    <string name="str_galeriaItem_log_errorDimensionarImagenItem">Error el redimensionar la Imagen Ítem: </string>
+
+    <!-- Lista de textos para Revisión Item en Galería y Revisión Ítem en Foto Item -->
+    <string name="str_galeriaItem_log_fragRevisionTag">Frag Revisión: </string>
+    <string name="str_galeriaItem_log_fragRevisionMsg">Revisión </string>
+    <string name="str_galeriaItem_log_fragItemRevisadoTag">Frag Ítem Revisión: </string>
+    <string name="str_galeriaItem_log_fragItemRevisadoMsg">Ítem Revisado </string>
+    <string name="str_galeriaItem_toast_revisionItemTerm">Revised Item</string>
+    <string name="str_galeriaItem_toast_eliminarFotoItemSinc">Once synchronized, Pictures deletion is not allowed.</string>
+    <string name="str_galeriaItem_toast_eliminarVideoItemSinc">Once synchronized, Videos deletion is not allowed.</string>
+    <string name="str_galeriaItem_toast_agregarFotoItemSync">Once synchronized, picture addition is not allowed.</string>
+    <string name="str_galeriaItem_toast_agregarVideoItemSync">Once synchronized, video addition is not allowed.</string>
+
+    <!-- Lista de textos para Revisión Referencia en Galería y Revisión en Foto Referencia -->
+    <string name="str_galeriaRef_toast_eliminarFotoRefSinc">Once synchronized, Pictures deletion is not allowed.</string>
+    <string name="str_galeriaRef_toast_eliminarVideoRefSinc">Once synchronized, Videos deletion is not allowed.</string>
+    <string name="str_galeriaRef_toast_agregarFotoRefSync">Once synchronized, picture addition is not allowed.</string>
+    <string name="str_galeriaRef_toast_agregarVideoRefSync">Once synchronized, video addition is not allowed.</string>
+
+    <!-- Lista de textos para UPC en Main -->
+    <string name="str_main_log_valorUPCTag">Valor UPC</string>
+    <string name="str_main_log_valorUPCMsg">El valor de UPC int es: </string>
+    <string name="str_main_log_UPCInvalidoTag">Código de Barras Invalido</string>
+    <string name="str_main_log_UPCInvalidoMsg">Código de Barras Invalido, contiene caracteres especiales</string>
+    <string name="str_main_toast_UPCInvalido">Invalid Bar Code</string>
+    <string name="str_main_toast_itemNoEncontradoUPC">Item not found</string>
+
+    <!-- Lista de textos para Galería de Ítem -->
+    <string name="str_galeriaItem_txv_fotoVideoItem">Pictures / Videos Item</string>
+    <string name="str_galeriaItem_btn_fotoItem">Pictures</string>
+    <string name="str_galeriaItem_btn_videoItem">Video</string>
+    <string name="str_galeriaItem_txv_galeriaItem">Gallery Item</string>
+    <string name="str_galeriaItem_btn_galeriaFotoItem">Pictures Gallery </string>
+    <string name="str_galeriaItem_btn_galeriaVideoItem">Video Gallery</string>
+
+    <!-- Lista de textos para Galería de Referencia -->
+    <string name="str_galeriaRef_txv_fotoVideoRef">Pictures / Videos Reference</string>
+    <string name="str_galeriaRef_btn_fotoInicioRef">Starting pictures</string>
+    <string name="str_galeriaRef_btn_fotoFinRef">Ending Picture</string>
+    <string name="str_galeriaRef_btn_videoRef">Video</string>
+    <string name="str_galeriaRef_txv_galeriaRef">References Gallery</string>
+    <string name="str_galeriaRef_btn_galeriaFotoInicioRef">Starting pictures gallery</string>
+    <string name="str_galeriaRef_btn_galeriaFotoFinRef">Ending pictures gallery</string>
+    <string name="str_galeriaRef_btn_galeriaVideoRef">Video Gallery</string>
+    <string name="str_toast_cuenta_asociada">There is already an associated account, delete account!</string>
+
+</resources>

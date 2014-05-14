@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frm_desglose"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/fondo" >
+
+        <ScrollView
+            android:id="@+id/scr_desglose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <!-- Put form controls here -->
+
+                <LinearLayout
+                    android:id="@+id/Layouth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="fill_horizontal"
+					style="@style/TitlePlayStore"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txv_titulo_alta_item"
+                        style="@style/TitlePlayStore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/str_desglose_cantidad_txv_desglose_cantidad" 
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/img_removedesgloses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".32"
+                        style="@style/TitlePlayStore"
+                        android:src="@android:drawable/ic_menu_delete" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txvItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TitlePlayStore"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/txt_cantidad"
+                    style="@style/EditText"
+                    android:hint="@string/str_desglose_cantidad_txt_cantidad"
+                    android:inputType="number" 
+                    android:maxLength="9">
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/txt_descripcion"
+                    style="@style/EditText"
+                    android:hint="@string/str_desglose_cantidad_txt_descripcion"
+                    android:inputType="text" 
+                    android:maxLength="250">
+                </EditText>
+
+                <Spinner
+                    android:id="@+id/spn_paises"
+                    style="@style/ListSpinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="4dp"
+                    android:entries="@array/paises" >
+
+                   
+                </Spinner>
+
+                <Button
+                    android:id="@+id/imgb_adddesglose"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_desglose_btn_addnom" />
+
+                <LinearLayout
+                    android:id="@+id/layout_desglose"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/imgb_guardarDesglose"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_desglose_btn_savedesglose" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>

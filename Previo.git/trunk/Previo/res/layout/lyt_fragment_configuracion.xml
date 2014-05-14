@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_lyt_configuracion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_body" >
+
+    <ScrollView
+        android:id="@+id/src_configuracion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fondo_body"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txv_tituloConfiguracion"
+                style="@style/TitlePlayStore"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/str_configuracion_txv_titulo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imgv_configuracion"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="0.28"
+                android:src="@android:drawable/ic_menu_manage" />
+
+            <EditText
+                android:id="@+id/txt_lenguaje"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="0.64"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="@string/str_configuracion_txt_lenguaje" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/txt_url"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+               
+                android:ems="12"
+                android:hint="@string/str_configuracion_txt_url"
+                android:maxLines="4" >
+				
+            </EditText>
+
+            <EditText
+                android:id="@+id/txt_puerto"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+               
+                android:ems="12"
+                android:hint="@string/str_configuracion_txt_puerto"
+                android:maxLines="4" />
+
+            <TextView
+                android:id="@+id/txv_estatus"
+                style="@style/TextViewConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/str_configuracion_txv_estatus" />
+
+            <TextView
+                android:id="@+id/txtv_sincronizacion"
+                style="@style/TextViewConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/str_configuracion_txv_sincronizacion" />
+
+            <Button
+                android:id="@+id/btn_guardar"
+                style="@style/Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_configuracion_btn_guardar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

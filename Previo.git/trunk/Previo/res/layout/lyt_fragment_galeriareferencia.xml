@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_lyt_galeriaReferencia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@color/blanco"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:singleLine="false"
+                    android:text="@string/str_galeriaRef_txv_fotoVideoRef"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="sans" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="6dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/divisor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/imgb_fotoInicioReferencia"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_fotoInicioRef" />
+
+                <Button
+                    android:id="@+id/imgb_fotoFinReferencia"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_fotoFinRef" />
+
+                <Button
+                    android:id="@+id/imgb_videoReferencia"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_videoRef" />
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.79"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:singleLine="false"
+                    android:text="@string/str_galeriaRef_txv_galeriaRef"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp"
+                    android:textStyle="bold|italic"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="6dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/divisor" />
+
+                <Button
+                    android:id="@+id/imgb_galeriaReferenciaInicio"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_galeriaFotoInicioRef"/>
+
+                <Button
+                    android:id="@+id/imgb_galeriaReferenciaFin"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_galeriaFotoFinRef"/>
+
+                <Button
+                    android:id="@+id/imgb_galeriaVideo"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:text="@string/str_galeriaRef_btn_galeriaVideoRef"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<color name="red">#ffff0000</color>
+<color name="blanco">#ffffffff</color>
+<color name="negro">#000000</color>
+<color name="gris">#888888</color>
+<color name= "azul">#3262A2</color>
+<color name= "fondo">#f5f5f5</color>
+<color name= "fondo_header">#EFEFEF</color> <!-- EFEFEF 3262A2-->
+<color name= "fondo_body">#DBDBDA</color>
+<color name= "verde_botones">#3262A2</color>   <!-- AEC253 -->
+<color name= "fondo_textheadertitleanteior">#6CBD57</color>
+</resources>

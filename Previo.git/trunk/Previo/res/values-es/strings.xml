@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Previo</string>
+    <string name="str_Listados_tittle_Referencias">Referencias</string>
+    <string name="str_Listados_tittle_Facturas">Facturas / Pedidos</string>
+    <string name="str_Listados_tittle_Item">Ítems</string>
+    <string name="str_Listados_tittle_Busqueda">Búsqueda</string>
+    <string name="str_Listados_tab_Revisado">Revisado</string>
+    <string name="str_Listados_tab_EnRevision">En Revisión</string>
+    <string name="str_Listados_tab_SinRevision">Sin Revisión</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="usuario_previo">Usuario del Previo</string>
+
+    <!-- Tags de Sincronización -->
+    <string name="sync_cargando">Completas...</string>
+    <!-- Tags de Sincronización Fin -->
+
+    <string name="str_Listados_faltaFoto">Falta foto</string>
+
+    <!-- Alta de ítem -->
+    <string name="str_altaitem_txv_altaitem">Alta de Ítem</string>
+    <string name="str_altaitem_txt_noparte">Número de Parte</string>
+    <string name="str_altaitem_txt_norma">Norma</string>
+    <string name="str_altaitem_txt_descripcion">Comentarios</string>
+    <string name="str_altaitem_txt_valorpartida">Valor Partida</string>
+    <string name="str_altaitem_txt_contenedor">Contenedor</string>
+    <string name="str_altaitem_txt_cantidad">Cantidad</string>
+    <string name="str_altaitem_txt_fraccion_arancelaria">Fracción Arancelaria</string>
+    <string name="str_altaitem_txt_sku">SKU</string>
+    <string name="str_altaitem_txt_unidad_medida">Unidad de Medida</string>
+    <string name="str_altaitem_txtv_unidad_nom">NOM</string>
+    <string name="str_altaitem_btn_addnom">Agregar Nom</string>
+    <string name="str_altaitem_btn_saveitem">Guardar Ítem</string>
+    <string name="str_altaitem_btn_cancelitem">Cancelar Ítem</string>
+    <string name="str_altaitem_spn_feedbacktype1">NOM 1</string>
+    <string name="str_altaitem_spn_feedbacktype2">NOM 2</string>
+    <string name="str_altaitem_spn_feedbacktype3">NOM 3</string>
+    <string name="str_altaitem_spn_feedbacktype4">NOM 4</string>
+    <string name="str_altaitem_spn_feedbacktype5">NOM 5</string>
+    <string name="str_altaitem_spn_feedbacktype6">NOM 6</string>
+    <string name="str_altaitem_spn_feedbacktype7">NOM 7</string>
+    <string name="str_altaitem_spn_feedbacktype8">NOM 8</string>
+    <string name="str_altaitem_spn_feedbacktype9">NOM 9</string>
+    <string name="str_altaitem_spn_feedbacktype10">NOM 10</string>
+    <string name="str_altaitem_spn_feedbacktype11">NOM 11</string>
+    <string name="str_altaitem_spn_feedbacktype12">NOM 12</string>
+    <string name="str_altaitem_spn_feedbacktype13">NOM 13</string>
+    <string name="str_altaitem_spn_feedbacktype14">NOM 14</string>
+    <string name="str_altaitem_spn_feedbacktype15">NOM 15</string>
+
+    <!-- Alta de ítem Fin -->
+
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="TextoBotonEntrar">Entrar</string>
+    <string name="drawer_close">Entrar</string>
+    <string name="drawer_open">Entrar</string>
+    <string name="textViewRevisionNOM">Revisión NOM</string>
+    <string name="str_configuracion_txv_titulo">Configuración</string>
+    <string name="nom_titulo"> Revisión: </string>
+    <!-- Lista de títulos de navegación -->
+    <string name="str_itemMenu_itm_referencia">Referencia</string>
+    <string name="str_itemMenu_itm_factura">Factura / Pedido</string>
+    <string name="str_itemMenu_itm_item">Ítem</string>
+    <string name="str_itemMenu_itm_configuracion">Configuración</string>
+    <string name="str_itemMenu_itm_ayuda">Ayuda</string>
+    <string name="str_itemMenu_itm_cerrarSesion">Cerrar sesión</string>
+
+    <!-- Lista de filtros de listados -->
+    <string name="str_lista_Facturas">Facturas / Pedido: </string>
+    <string name="str_lista_Noms">NOMS: </string>
+    <string name="str_lista_Item">Items: </string>
+    <string name="str_lista_R">R: </string>
+    <string name="str_lista_ER">ER: </string>
+    <string name="str_lista_SR">SR: </string>
+
+    <!-- Nom campo requerido -->
+    <string name="nom_requerido">Captura: </string>
+    <string name="nom_cambiar_estatus"> La Revisión fue eliminada</string>
+    <string name="nom_estatus_revisada"> NOM Revisada</string>
+    <string name="nom_faltan_requeridos"> Faltan Datos Requeridos</string>
+    <!-- Lista de textos para galerías Ítem -->
+    <string name="str_galerias_txtv_tituloGaleriaFotoItem">Galería Fotos Ítem</string>
+    <string name="str_galerias_txtv_tituloGaleriaVideoItem">Galería Videos Ítem</string>
+    <string name="str_galerias_toast_sinFotos">No hay Fotos Ítem para mostrar</string>
+    <string name="str_galerias_toast_sinVideosItem">No hay Videos Ítem para mostrar</string>
+    <string name="str_galerias_log_sinDirectorioFotoTag">Galería Fotos Ítem</string>
+    <string name="str_galerias_log_sinDirectorioFotoMsg">El Directorio de Galería Foto Ítem no fue Encontrado</string>
+    <string name="str_galerias_log_sinDirectorioVideoTag">Galería Video Ítem</string>
+    <string name="str_galerias_log_sinDirectorioVideoMsg">El Directorio de Galería Video Ítem no fue Encontrado</string>
+    <string name="str_galerias_asyncTask_galeriaFotosTitulo">Galería Fotos Ítem</string>
+    <string name="str_galerias_asyncTask_galeriaVideosTitulo">Galería Videos Ítem</string>
+    <string name="str_galerias_log_transformarArchivoFotoItemTag">Transformar Archivo Foto Ítem: </string>
+    <string name="str_galerias_log_transformarArchivoFotoItemMsg">Error al transformar el Archivo Foto Ítem a Bitmap</string>
+
+    <!-- Lista de textos para Galerías de Inicio y Fin Referencia -->
+    <string name="str_galerias_txtv_tituloGaleriaFotoInicioRef">Galería Fotos Inicio Referencia</string>
+    <string name="str_galerias_txtv_tituloGaleriaFotoFinRef">Galería Fotos Fin Referencia</string>
+    <string name="str_galerias_txtv_tituloGaleriaVideoRef">Galería Videos Referencia</string>
+    <string name="str_galerias_toast_sinFotosInicio">No hay Fotos Inicio para mostrar</string>
+    <string name="str_galerias_toast_sinFotosFin">No hay Fotos Fin para mostrar</string>
+    <string name="str_galerias_toast_sinVideosRef">No hay Videos Referencia para mostrar</string>
+    <string name="str_galerias_log_sinDirectorioFotoInicioTag">Galería Foto Inicio Referencia</string>
+    <string name="str_fotos_log_sinDirectorioFotoInicioTag">Fotografía Inicio Referencia</string>
+    <string name="str_fotos_log_sinDirectorioVideoRefTag">Video Referencia</string>
+    <string name="str_galerias_log_sinDirectorioFotoInicioMsg">El Directorio de Galería Foto Inicio Referencia no fue Encontrado</string>
+    <string name="str_galerias_log_sinDirectorioFotoFinTag">Galería Foto Fin Referencia</string>
+    <string name="str_fotos_log_sinDirectorioFotoFinTag">Fotografía Fin Referencia</string>
+    <string name="str_galerias_log_sinDirectorioFotoFinMsg">El Directorio de Galería Foto Fin Referencia no fue Encontrado</string>
+    <string name="str_galerias_log_sinDirectorioVideoRefTag">Galería Video Referencia</string>
+    <string name="str_galerias_log_sinDirectorioVideoRefMsg">El Directorio de Galería Video Referencia no fue Encontrado</string>
+    <string name="str_galerias_asyncTask_galeriaFotosInicioTiulo">Galería Fotos Inicio Referencia</string>
+    <string name="str_galerias_asyncTask_galeriaFotosFinTiulo">Galería Fotos Fin Referencia</string>
+    <string name="str_galerias_asyncTask_galeriaVideosRefTitulo">Galería Videos Referencia</string>
+    <string name="str_galerias_asyncTask_galeriasMensaje">Cargando . . .</string>
+    <string name="str_menu_btn_actionDelete">Eliminar</string>
+
+    <!-- Lista de textos para fotografía Referencia -->
+    <string name="str_galeriaRef_log_idPadreRefTag">IdPadre Referencia</string>
+    <string name="str_galeriaRef_log_idPadreRefMsg">Valor Recuperado idPadre Factura</string>
+    <string name="str_galeriaRef_log_idPadreRefGalTag">IdPadre Ref a GaleriaInicio</string>
+    <string name="str_galeriaRef_log_idPadreRefGalMsg">Mandando idPadre a Galeria Referencia Inicio: </string>
+    <string name="str_galeriaRef_log_idPadreRefGalFinTag">IdPadre Ref a GaleriaFin</string>
+    <string name="str_galeriaRef_log_idPadreRefGalFinMsg">Mandando idPadre a Galeria Referencia Fin: </string>
+    <string name="str_galeriaRef_log_idPadreRefGalVideoTag">IdPadre Ref a GaleriaVideo</string>
+    <string name="str_galeriaRef_log_idPadreRefGalVideoMsg">Mandando idPadre a Galeria Video: </string>
+    <string name="str_galeriaRef_log_rutaDirFotoInicioTag">Ruta Directorio FotoInicio</string>
+    <string name="str_galeriaRef_log_rutaDirSinSDMsg">El almacenamiento externo no esta listo para lectura/escritura</string>
+    <string name="str_galeriaRef_toast_rutaArchivoFotoInicio">No se generó el archivo de Foto Inicio Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoInicioTag">Archivo FotoInicio Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoInicioMsg">No se generó el archivo de Foto Inicio Referencia</string>
+    <string name="str_galeriaRef_log_rutaDirFotoFinTag">Ruta Directorio FotoFin</string>
+    <string name="str_galeriaRef_toast_rutaArchivoFotoFin">No se generó el archivo de Foto Fin Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoFinTag">Archivo FotoFin Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoFotoFinMsg">No se generó el archivo de Foto Fin Referencia</string>
+    <string name="str_galeriaRef_log_rutaDirVideoTag">Ruta Directorio Video Referencia</string>
+    <string name="str_galeriaRef_toast_rutaArchivoVideo">No se generó el archivo de Video Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoVideoTag">Archivo Video Referencia</string>
+    <string name="str_galeriaRef_log_rutaArchivoVideoMsg">No se generó el archivo de Video Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarFotoInicio">Nombre FotoInicio Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarFotoFin">Nombre FotoFin Referencia</string>
+    <string name="str_galeriaRef_log_nombreTomarVideo">Nombre Video Referencia</string>
+    <string name="str_galeriaRef_log_errorImagenTag">Error Imagen</string>
+    <string name="str_galeriaRef_log_errorSinImagenRef">No se encontro la Imagen Referencia: </string>
+    <string name="str_galeriaRef_log_errorDimensionarImagenRef">Error el redimensionar la Imagen Referencia: </string>
+    <string name="str_galeriaRef_log_eliminarFotoInicioTag">Act path galeria inicio: </string>
+    <string name="str_galeriaRef_log_eliminarFotoInicioMsg">pathDelete.get(i) inicio: </string>
+    <string name="str_galeriaRef_log_eliminarFotoFinTag">Act path galeria fin: </string>
+    <string name="str_galeriaRef_log_eliminarFotoFinMsg">pathDelete.get(i) fin: </string>
+
+    <!-- Lista de textos para fotografía Ítem -->
+    <string name="str_galeriaItem_log_idPadreItemTag">IdPadre Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemMsg">Valor Recuperado IdPadre de Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemGalTag">IdPadre Item a Galeria Ítem</string>
+    <string name="str_galeriaItem_log_idPadreItemGalMsg">Mandando idPadre a Galeria Ítem: </string>
+    <string name="str_galeriaItem_log_idPadreItemGalVideoTag">IdPadre Ítem a GaleriaVideo</string>
+    <string name="str_galeriaItem_log_idPadreItemGalVideoMsg">Mandando IdPadre Ítem a Galeria Video: </string>
+    <string name="str_galeriaItem_log_rutaDirFotoItemTag">Ruta Directorio Foto Item</string>
+    <string name="str_galeriaItem_log_rutaDirSinSDMsg">El almacenamiento externo no esta listo para lectura/escritura</string>
+    <string name="str_galeriaItem_toast_rutaArchivoFotoItem">No se generó el archivo de Foto Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoFotoItemTag">Archivo Foto Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoFotoItemMsg">No se generó el archivo de Foto Ítem</string>
+    <string name="str_galeriaItem_log_rutaDirVideoTag">Ruta Directorio Video Ítem</string>
+    <string name="str_galeriaItem_toast_rutaArchivoVideoItem">No se generó el archivo de Video Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoVideoItemTag">Archivo Video Ítem</string>
+    <string name="str_galeriaItem_log_rutaArchivoVideoItemMsg">No se generó el archivo de Video Referencia</string>
+    <string name="str_galeriaItem_log_nombreTomarFotoItem">Nombre Foto Ítem</string>
+    <string name="str_galeriaItem_log_nombreTomarVideoItem">Nombre Video Ítem</string>
+    <string name="str_galeriaItem_log_errorImagenItemTag">Error Imagen</string>
+    <string name="str_galeriaItem_log_errorSinImagenItem">No se encontro la Imagen Ítem: </string>
+    <string name="str_galeriaItem_log_errorDimensionarImagenItem">Error el redimensionar la Imagen Ítem: </string>
+
+    <!-- Lista de textos para Revisión Item en Galería y Revisión Ítem en Foto Item -->
+    <string name="str_galeriaItem_log_fragRevisionTag">Frag Revisión: </string>
+    <string name="str_galeriaItem_log_fragRevisionMsg">Revisión </string>
+    <string name="str_galeriaItem_log_fragItemRevisadoTag">Frag Ítem Revisión: </string>
+    <string name="str_galeriaItem_log_fragItemRevisadoMsg">Ítem Revisado </string>
+    <string name="str_galeriaItem_toast_revisionItemTerm">Revisión de Ítem terminada</string>
+    <string name="str_galeriaItem_toast_eliminarFotoItemSinc">No se pueden eliminar Imágenes, Ítem sincronizado</string>
+    <string name="str_galeriaItem_toast_eliminarVideoItemSinc">No se pueden eliminar Videos, Ítem sincronizado</string>
+    <string name="str_galeriaItem_toast_agregarFotoItemSync">No se pueden agregar más Imágenes, Ítem sincronizado</string>
+    <string name="str_galeriaItem_toast_agregarVideoItemSync">No se pueden agregar más Videos, Ítem sincronizado</string>
+
+    <!-- Lista de textos para Revisión Referencia en Galería y Revisión en Foto Referencia -->
+    <string name="str_galeriaRef_toast_eliminarFotoRefSinc">No se pueden eliminar Imágenes, Referencia sincronizada</string>
+    <string name="str_galeriaRef_toast_eliminarVideoRefSinc">No se pueden eliminar Videos, Referencia sincronizada</string>
+    <string name="str_galeriaRef_toast_agregarFotoRefSync">No se pueden agregar más Imágenes, Referencia sincronizada</string>
+    <string name="str_galeriaRef_toast_agregarVideoRefSync">No se pueden agregar más Videos, Referencia sincronizada</string>
+
+    <!-- Lista de textos para UPC en Main -->
+    <string name="str_main_log_valorUPCTag">Valor UPC</string>
+    <string name="str_main_log_valorUPCMsg">El valor de UPC int es: </string>
+    <string name="str_main_log_UPCInvalidoTag">Código de Barras Invalido</string>
+    <string name="str_main_log_UPCInvalidoMsg">Código de Barras Invalido, contiene caracteres especiales</string>
+    <string name="str_main_toast_UPCInvalido">Código de Barras Invalido</string>
+    <string name="str_main_toast_itemNoEncontradoUPC">Item no Encontrado</string>
+
+    <!-- Lista de textos para Galería de Ítem -->
+    <string name="str_galeriaItem_txv_fotoVideoItem">Fotografía / Video Ítem</string>
+    <string name="str_galeriaItem_btn_fotoItem">Fotografía</string>
+    <string name="str_galeriaItem_btn_videoItem">Video</string>
+    <string name="str_galeriaItem_txv_galeriaItem">Galería Ítem</string>
+    <string name="str_galeriaItem_btn_galeriaFotoItem">Galería Fotografia</string>
+    <string name="str_galeriaItem_btn_galeriaVideoItem">Galería Video</string>
+
+    <!-- Lista de textos para Galería de Referencia -->
+    <string name="str_galeriaRef_txv_fotoVideoRef">Fotografía / Video Referencia</string>
+    <string name="str_galeriaRef_btn_fotoInicioRef">Fotografía Inicio</string>
+    <string name="str_galeriaRef_btn_fotoFinRef">Fotografía Fin</string>
+    <string name="str_galeriaRef_btn_videoRef">Video</string>
+    <string name="str_galeriaRef_txv_galeriaRef">Galería Referencia</string>
+    <string name="str_galeriaRef_btn_galeriaFotoInicioRef">Galería Fotografía Inicio</string>
+    <string name="str_galeriaRef_btn_galeriaFotoFinRef">Galería Fotografía Fin</string>
+    <string name="str_galeriaRef_btn_galeriaVideoRef">Galería Video</string>
+    <string name="feedbacktype16">NOM 1</string>
+    <string name="feedbacktype26">NOM 2</string>
+    <string name="feedbacktype36">NOM 3</string>
+    <string name="feedbacktype46">NOM 4</string>
+
+    <!-- Desglose de Cantidad -->
+
+    <string name="str_desglose_cantidad_txv_desglose_cantidad">Desglose de Cantidad</string>
+    <string name="str_desglose_cantidad_txv_desglose_cantidad2">Ítem:</string>
+    <string name="str_desglose_cantidad_txt_cantidad">Candidad</string>
+    <string name="str_desglose_cantidad_txt_descripcion">Descripción</string>
+    <string name="str_desglose_cantidad_spn_pais">País</string>
+    <string name="str_desglose_cantidad_spn_mex">México</string>
+    <string name="str_desglose_cantidad_spn_ch">china</string>
+    <string name="str_desglose_cantidad_spn_jp">Japón</string>
+    <string name="str_desglose_cantidad_spn_al">Alemania</string>
+    <string name="str_desglose_cantidad_spn_fr">Francia</string>
+    <string name="str_desglose_cantidad_spn_co">Corea</string>
+    <string name="str_desglose_cantidad_spn_usa">USA</string>
+    <string name="str_desglose_cantidad_spn_ca">Canada</string>
+    <string name="str_desglose_cantidad_spn_ak">Alaska</string>
+    <string name="str_desglose_cantidad_spn_sin">Singapur</string>
+    <string name="str_desglose_cantidad_spn_in">Inglaterra</string>
+    <string name="str_desglose_cantidad_spn_br">Brasil</string>
+    <string name="str_desglose_cantidad_spn_ar">Argentina</string>
+    <string name="str_desglose_cantidad_spn_por">Portugal</string>
+    <string name="str_desglose_cantidad_spn_rus">Rusia</string>
+
+    <!-- Desglose de Cantidad fin -->
+    <!-- Strings aidee -->
+    <string name="str_configuracion_btn_guardar">Guardar</string>
+    <string name="str_configuracion_txt_lenguaje">Español</string>
+    <string name="str_configuracion_txt_puerto">Puerto</string>
+    <string name="str_configuracion_txt_url">URL</string>
+    <string name="str_configuracion_txv_estatus">Conectado al servidor</string>
+    <string name="str_configuracion_txv_sincronizacion">Hora de Sincronización</string>
+    <string name="str_revisionitem_txv_titulo">Ítem a revisar:</string>
+    <string name="str_revisionitem_txv_referenciaEtiqueta">No. Referencia:</string>
+    <string name="str_revisionitem_txv_referenciaValor">1254879</string>
+    <string name="str_revisionitem_txv_razonSocialEtiqueta">Razón Social:</string>
+    <string name="str_revisionitem_txv_razonSocialValor">Adquem S.C.</string>
+    <string name="str_revisionitem_txv_cantidadEtiqueta">Cantidad:</string>
+    <string name="str_revisionitem_txv_cantidadValor">8</string>
+    <string name="str_revisionitem_txv_cantidadRecibidaEtiqueta">Cantidad recibida:</string>
+    <string name="str_revisionitem_btn_comentariosLogistics">Descripción Logistics</string>
+    <string name="str_revisionitem_btn_comentarios">Comentarios</string>
+    <string name="str_revisionitem_txv_comentariosGenerales">Comentarios generales de solo lectura</string>
+    <string name="textViewFacturas">Número Factura:</string>
+    <string name="textViewNumParte">Número de Parte:</string>
+    <string name="textViewVoltios">Voltios:</string>
+    <string name="str_revisionitem_txv_listadoNomsTitulo">LISTADO NOMS</string>
+    <string name="spinner_header_paises">Países</string>
+    <string name="spinner_header_estatus">Estatus</string>
+    <string name="feedbacktypeE1">Estado1</string>
+    <string name="feedbacktypeE2">Estado2</string>
+    <string name="feedbacktypeE3">Estado3</string>
+    <string name="feedbacktypeE4">Estado4</string>
+    <string name="spinner_header_grafico">Gráfico</string>
+    <string name="feedbacktypeG1">Gráfico1</string>
+    <string name="feedbacktypeG2">Gráfico2</string>
+    <string name="feedbacktypeG3">Gráfico3</string>
+    <string name="feedbacktypeG4">Gráfico4</string>
+    <string name="spinner_header_instructivo">Instructivo</string>
+    <string name="feedbacktypeI1">Instructivo1</string>
+    <string name="feedbacktypeI2">Instructivo2</string>
+    <string name="feedbacktypeI3">Instructivo3</string>
+    <string name="feedbacktypeI4">Instructivo4</string>
+
+    <string-array name="feedbacktypelistInstructivo">
+        <item>@string/feedbacktypeI1</item>
+        <item>@string/feedbacktypeI2</item>
+        <item>@string/feedbacktypeI3</item>
+        <item>@string/feedbacktypeI4</item>
+    </string-array>
+
+    <string name="spinner_header_advertencia">Advertencia</string>
+    <string name="feedbacktypeA1">Advertencia1</string>
+    <string name="feedbacktypeA2">Advertencia2</string>
+    <string name="feedbacktypeA3">Advertencia3</string>
+    <string name="feedbacktypeA4">Advertencia4</string>
+    <string name="spinner_header_garantia">Garantía</string>
+    <string name="feedbacktypeGa1">Garantía1</string>
+    <string name="feedbacktypeGa2">Garantía2</string>
+    <string name="feedbacktypeGa3">Garantía3</string>
+    <string name="feedbacktypeGa4">Garantía4</string>
+    <string name="str_listadofact_txv_Titulo">Referencia:</string>
+    <string name="str_listadofact_txv_referenciaEtiqueta">No. Referencia: </string>
+    <string name="str_listadofact_txv_arriboEtiqueta">Fecha de Arribo: </string>
+    <string name="str_listadofact_txv_clienteEtiqueta">Razón social: </string>
+    <string name="str_listadofact_txv_fechaFactEtiqueta">Fecha: </string>
+    <string name="str_listadofact_txv_ejecutivoEtiqueta">Ejecutivo: </string>
+    <string name="str_listadofact_txv_clasificadorEtiqueta">Clasificador: </string>
+    <string name="str_listadofact_txv_plazaEtiqueta">Plaza: </string>
+    <string name="str_listadofact_txv_contenedorEtiqueta">Contenedor: </string>
+    <string name="str_listadofact_btn_agregarExcedente">Agregar Excedente</string>
+    <string name="str_listadofact_btn_forzarRevision">Forzar Revisión</string>
+    <string name="str_items_txv_Titulo">Factura / Pedido:</string>
+    <string name="textViewFechaFacturaEtiqueta">Fecha: </string>
+    <string name="str_items_txv_facturaEtiqueta">Número: </string>
+    <string name="str_items_txv_ordenCompraEtiqueta">Orden compra: </string>
+    <string name="str_items_txv_rfcEtiqueta">RFC: </string>
+    <string name="textViewProveedorEtiqueta">Proveedor: </string>
+    <string name="str_revisionitem_btn_NOM1">NOM 1</string>
+    <string name="str_revisionitem_btn_NOM2">NOM 2</string>
+    <string name="str_revisionitem_btn_NOM3">NOM 3</string>
+    <string name="str_revisionitem_txt_unidadEtiqueta">Unidad de medida:</string>
+    <string name="str_revisionitem_txt_unidadValor">Kg</string>
+    <string name="str_desglose_btn_addnom">Agregar Desglose</string>
+    <string name="str_desglose_btn_savedesglose">Guardar Desgloses</string>
+    <string name="str_forzarrevision_txv_titulo">Forzar revisión</string>
+    <string name="str_forzarrevision_btn_aceptar">Aceptar</string>
+    <string name="str_forzarrevision_txv_mensajeConfirmacion">¿Está seguro de cambiar el estatus de la referencia a Revisado?</string>
+    <string name="str_forzarrevision_txt_comentariosCierre">Comentarios del cierre de la revisión</string>
+    <string name="str_revisionitem_txv_paisOrigenEtiqueta">País origen:</string>
+    <string name="str_revisionitem_btn_guardarRevision">Guardar revisión</string>
+    <string name="str_revisionitem_txv_paisOrigenValor">País origen del primer desglose</string>
+    <string name="str_revisionitem_txt_comentarios">Comentarios</string>
+    <string name="str_main_txt_tituloUPC">Valor UPC</string>
+    <string name="str_main_txt_mensajeUPC">Confirme el valor del UPC escaneado: </string>
+    <string name="str_main_btn_aceptarUPC">Aceptar</string>
+    <string name="str_main_btn_cancelarUPC">Cancelar</string>
+    <string name="str_toast_errorlogin">Verifica tu Nombre y/o password.</string>
+    <string name="str_toast_errorAccount">Advertencia!, las cuentas fueron borradas manualmente.</string>
+    <string name="str_progressdialog_synctittle">Sincronizando</string>
+    <string name="str_progressdialog_syncmessage">Descargando......</string>
+
+    <!-- Lista de titulos de navegacion -->
+    <string name="str_ayuda_txv_lorem_ipsum"><![CDATA[Necesitas Ayuda]]></string>
+
+    <!-- Lista de iconos de navegacion -->
+
+
+    <!-- Strings para diseño y look and feel -->
+
+    <string name="fondoblanco">#FFFFFF</string>
+
+    <!-- Toast aidee -->
+    <string name="str_alta_toast_referenciaSincronizada">No se puede agregar excedente, referencia sincronizada.</string>
+    <string name="str_alta_dialog_msg_eliminacion">¿Está seguro que desea eliminar los valores en la pantalla?</string>
+    <string name="str_alta_dialog_titulo_eliminacion">Limpiar pantalla</string>
+    <string name="str_alta_toast_nomRepetida">NOM repetida.</string>
+    <string name="str_alta_dialog_msg_eliminaNOM">¿Está seguro que desea eliminar la NOM de la lista?</string>
+    <string name="str_alta_dialog_titulo_eliminaNOM">Eliminar NOM</string>
+    <string name="str_alta_toast_confirmacion">Ítem almacenado satisfactoriamente.</string>
+    <string name="str_alta_toast_faltaInfo">Faltan datos para dar de alta el ítem.</string>
+    <string name="str_alta_toast_errorAlta">Error al dar de alta el ítem.</string>
+    <string name="str_forzarRevision_toast_referenciaSincronizada">No se puede forzar la revisión, referencia sincronizada.</string>
+    <string name="str_forzarRevision_toast_confirmacion">Referencia revisada.</string>
+    <string name="str_forzarRevision_toast_errorForzar">Error al forzar la revisión de la Referencia.</string>
+    <string name="str_forzarRevision_toast_faltanFotos">Debe haber al menos una foto de inicio y una de fin.</string>
+    <string name="str_forzarRevision_toast_faltanDatos">Faltan datos para forzar la revisión.</string>
+    <string name="str_revisionItem_toast_itemSincronizado">No se puede actualizar, ítem sincronizado.</string>
+    <string name="str_revisionItem_toast_itemRevisado">Ítem revisado.</string>
+    <string name="str_revisionItem_toast_itemActualizado">Ítem actualizado.</string>
+    <string name="str_revisionItem_toast_noDatos">No hay datos nuevos que actualizar.</string>
+    <string name="str_desgloses_dialog_titulo_limpia">Limpiar pantalla</string>
+    <string name="str_desgloses_dialog_msg_limpia">¿Está seguro que desea eliminar los desgloses de la pantalla?</string>
+    <string name="str_desgloses_toast_itemSincronizadoElimina">No se pueden eliminar desgloses, ítem sincronizado.</string>
+    <string name="str_desgloses_toast_itemSincronizadoGuarda">No se pueden guardar desgloses, ítem sincronizado.</string>
+    <string name="str_desgloses_toast_desgloseRepetido">Desglose repetido.</string>
+    <string name="str_desgloses_toast_faltanDatos">Faltan datos para agregar desglose a la lista.</string>
+    <string name="str_desgloses_toast_validaCantidad">La cantidad debe ser mayor a cero.</string>
+    <string name="str_desgloses_toast_desgloseEliminado">Desglose eliminado de la base de datos.</string>
+    <string name="str_desgloses_toast_errorEliminarDesglose">No se pudo eliminar desglose de la base de datos.</string>
+    <string name="str_desgloses_dialog_titulo_eliminacion">Eliminar Desglose</string>
+    <string name="str_desgloses_dialog_msg_eliminacion">¿Está seguro que desea eliminar el desglose de la pantalla y de la base de datos?</string>
+    <string name="str_desgloses_dialog_msg_eliminacion1">¿Está seguro que desea eliminar el desglose de la pantalla?</string>
+    <string name="str_desgloses_toast_itemSincronizadoElimina1">No se puede eliminar desglose, ítem sincronizado.</string>
+    <string name="str_desgloses_toast_desglosesGuardados"> desgloses guardados.</string>
+    <string name="str_desgloses_toast_noHayNuevos">No hay nuevos desgloses para agregar.</string>
+    <string name="str_desgloses_toast_desglosesEliminados"> desgloses eliminados de la base de datos.</string>
+    <string name="str_desgloses_toast_errorEliminarDesgloses">No se pudieron eliminar los desgloses de la base de datos.</string>
+    <string name="str_nomRevision_toast_guardarItemSincronizado">No se puede actualizar la nom, ítem sincronizado.</string>
+    <string name="str_nomRevision_toast_eliminarItemSincronizado">No se puede eliminar la revisión de la nom, ítem sincronizado.</string>
+    <string name="str_toast_erroserver">Servidor Inaccesible</string>
+    <string name="str_toast_cuenta_asociada">Ya existe una cuenta asociada, elimine cuenta!!</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+  
+ 
+     
+        <item  
+       android:id="@+id/one"  
+       android:actionViewClass="@style/PopupMenu"/>  
+        
+     
+      
+    <item  
+        android:id="@+id/two"  
+        android:actionViewClass="@style/PopupMenu"
+        />  
+        
+    <item  
+        android:id="@+id/three"  
+        android:actionViewClass="@style/PopupMenu"
+        />  
+        
+    <item  
+        android:id="@+id/four"  
+        android:actionViewClass="@style/PopupMenu"
+        />  
+          
+</menu> 

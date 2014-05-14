@@ -1,0 +1,140 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+
+   
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <!--
+         <item name="android:background">@drawable/fondoedit</item>
+         <item name="android:background">@drawable/edittextfondo</item>
+        -->
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textSize">7pt</item>
+    </style>
+
+    <style name="ListSpinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <!-- <item name="android:background">#747180</item> -->
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textSize">7pt</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">7pt</item>
+    </style>
+
+    <style name="TextViewListado">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="TextViewConfig">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3262A2</item>
+        <item name="android:textSize">7pt</item>
+    </style>
+
+    <style name="TextViewInfo">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#2E4B53</item>
+    </style>
+
+    <style name="TextViewInfoResalta">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">9pt</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/selecstyle</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <style name="Push_Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">#7092BE</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">#569B6F</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">9pt</item>
+    </style>
+
+    <style name="TitlePlayStore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@color/blanco</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">9pt</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:textColor">#c1f554</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FondoBoton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/selecstyle</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="PopupItemStyle">
+        <item name="android:background">#FFA0A0A0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Temas" parent="android:Theme.Light">
+   		<item name="android:popupMenuStyle">@style/PopupMenu</item>
+	</style>
+
+	<style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+   		<item name="android:popupBackground">@android:color/holo_purple</item>
+	</style>
+   
+
+</resources>

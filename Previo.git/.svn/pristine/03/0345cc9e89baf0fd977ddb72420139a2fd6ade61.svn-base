@@ -1,0 +1,28 @@
+<!-- fragment_screen_slide_page.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlyt_ayuda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo" >
+
+    <TextView
+        android:id="@+id/txt_descripcion_ayuda"
+        style="@style/TextViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:lineSpacingMultiplier="1.2"
+        android:padding="15dp"
+        android:text="@string/str_ayuda_txv_lorem_ipsum" />
+
+    <ImageView
+        android:id="@+id/imgv_ayuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_descripcion_ayuda"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/str_ayuda_txv_lorem_ipsum"
+        android:src="@drawable/pregunta" />
+
+</RelativeLayout>

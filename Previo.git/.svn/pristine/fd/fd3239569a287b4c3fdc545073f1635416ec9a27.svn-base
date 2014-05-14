@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lista de títulos de navegación -->
+    <string-array name="nav_options">
+        <item>@string/str_itemMenu_itm_referencia</item>
+        <item>@string/str_itemMenu_itm_factura</item>
+        <item>@string/str_itemMenu_itm_item</item>
+        <item>@string/str_itemMenu_itm_configuracion</item>
+        <item>@string/str_itemMenu_itm_ayuda</item>
+        <item>@string/str_itemMenu_itm_cerrarSesion</item>
+    </string-array>
+    <!-- Lista de iconos de navegación -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@android:drawable/ic_menu_help</item>
+        <item>@android:drawable/ic_lock_lock</item>
+    </array>
+
+    <string-array name="feedbacktypelist">
+        <item>@string/str_altaitem_spn_feedbacktype1</item>
+        <item>@string/str_altaitem_spn_feedbacktype2</item>
+        <item>@string/str_altaitem_spn_feedbacktype3</item>
+        <item>@string/str_altaitem_spn_feedbacktype4</item>
+        <item>@string/str_altaitem_spn_feedbacktype5</item>
+        <item>@string/str_altaitem_spn_feedbacktype6</item>
+        <item>@string/str_altaitem_spn_feedbacktype7</item>
+        <item>@string/str_altaitem_spn_feedbacktype8</item>
+        <item>@string/str_altaitem_spn_feedbacktype9</item>
+        <item>@string/str_altaitem_spn_feedbacktype10</item>
+        <item>@string/str_altaitem_spn_feedbacktype11</item>
+        <item>@string/str_altaitem_spn_feedbacktype12</item>
+        <item>@string/str_altaitem_spn_feedbacktype13</item>
+        <item>@string/str_altaitem_spn_feedbacktype14</item>
+        <item>@string/str_altaitem_spn_feedbacktype15</item>
+    </string-array>
+    <string-array name="paises">
+        <item>@string/str_desglose_cantidad_spn_mex</item>
+        <item>@string/str_desglose_cantidad_spn_ch</item>
+        <item>@string/str_desglose_cantidad_spn_jp</item>
+        <item>@string/str_desglose_cantidad_spn_al</item>
+        <item>@string/str_desglose_cantidad_spn_fr</item>
+        <item>@string/str_desglose_cantidad_spn_co</item>
+        <item>@string/str_desglose_cantidad_spn_usa</item>
+        <item>@string/str_desglose_cantidad_spn_ca</item>
+        <item>@string/str_desglose_cantidad_spn_ak</item>
+        <item>@string/str_desglose_cantidad_spn_sin</item>
+        <item>@string/str_desglose_cantidad_spn_in</item>
+        <item>@string/str_desglose_cantidad_spn_br</item>
+        <item>@string/str_desglose_cantidad_spn_ar</item>
+        <item>@string/str_desglose_cantidad_spn_por</item>
+        <item>@string/str_desglose_cantidad_spn_rus</item>
+    </string-array>
+    <string-array name="feedbacktypelist1">
+        <item>@string/str_altaitem_spn_feedbacktype1</item>
+        <item>@string/str_altaitem_spn_feedbacktype2</item>
+        <item>@string/str_altaitem_spn_feedbacktype3</item>
+        <item>@string/str_altaitem_spn_feedbacktype4</item>
+    </string-array>
+    <string-array name="feedbacktypelistEstatus">
+        <item>@string/feedbacktypeE1</item>
+        <item>@string/feedbacktypeE2</item>
+        <item>@string/feedbacktypeE3</item>
+        <item>@string/feedbacktypeE4</item>
+    </string-array>
+    <string-array name="feedbacktypelistGrafico">
+        <item>@string/feedbacktypeG1</item>
+        <item>@string/feedbacktypeG2</item>
+        <item>@string/feedbacktypeG3</item>
+        <item>@string/feedbacktypeG4</item>
+    </string-array>
+    <string-array name="feedbacktypelistAdvertencia">
+        <item>@string/feedbacktypeA1</item>
+        <item>@string/feedbacktypeA2</item>
+        <item>@string/feedbacktypeA3</item>
+        <item>@string/feedbacktypeA4</item>
+    </string-array>
+    <string-array name="feedbacktypelistGarantia">
+        <item>@string/feedbacktypeGa1</item>
+        <item>@string/feedbacktypeGa2</item>
+        <item>@string/feedbacktypeGa3</item>
+        <item>@string/feedbacktypeGa4</item>
+    </string-array>
+    <string-array name="causasCierre">
+        <item>Causa 1</item>
+        <item>Causa 2</item>
+        <item>Causa 3</item>
+        <item>Causa 4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adquem.grupologistics.controllers"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scaoriginal"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_ActionBar"
+            android:label="@string/app_name"
+            android:theme="@style/Temas" >
+        </activity>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_Main"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_Configuracion"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        </activity>
+        <!-- Actividades para Galería Referencia e Item -->
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_FotoIntent"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"/>
+        <activity 
+            android:name="com.adquem.grupologistics.controllers.Act_VideoIntent"
+            android:theme="@string/app_name" 
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_GalleryItemFoto"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_GalleryItemVideo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>   
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_GalleryReferenciaFoto"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_GalleryReferenciaFotoFin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>                        
+        <activity
+            android:name="com.adquem.grupologistics.controllers.Act_GalleryReferenciaVideo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        
+        <!-- Actividad para Cámara y Lector de Código de Barras -->
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+
+
+       
+
+        <service android:name="com.adquem.grupologistics.utilities.Util_AuthenticatorService" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <provider
+            android:name="com.adquem.grupologistics.dao.MyContentProvider"
+            android:authorities="com.adquem.grupologistics.dao.MyContentProvider" >
+        </provider>
+
+        <service
+            android:name="com.adquem.grupologistics.utilities.Utl_SyncService"
+            android:exported="true"
+            android:process=":sync" >
+            <intent-filter>
+com.adquem.grupologistics.dao.MyContentProvider
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+    </application>
+
+</manifest>

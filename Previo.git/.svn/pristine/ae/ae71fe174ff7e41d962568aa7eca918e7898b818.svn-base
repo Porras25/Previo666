@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/fondo"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+      android:id="@+id/info"
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/fondo"
+      android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            style="@style/TitlePlayStore">
+
+            <TextView
+                android:id="@+id/txv_tituloReferencia"
+                style="@style/TitlePlayStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:layout_weight="1"
+                android:text="@string/str_listadofact_txv_Titulo"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imgb_camara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"   
+                style="@style/TitlePlayStore"                   
+                android:src="@android:drawable/ic_menu_camera" />
+
+        </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/container"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txv_referenciaEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_referenciaEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_referenciaValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txv_arriboEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_arriboEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_arriboValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp" >
+            
+            <TextView android:id="@+id/txv_clienteEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_clienteEtiqueta"/>
+            
+            <TextView
+                android:id="@+id/txv_clienteValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+             android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txv_ejecutivoEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_ejecutivoEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_ejecutivoValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txv_clasificadorEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_clasificadorEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_clasificadorValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txv_plazaEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_plazaEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_plazaValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+             android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txv_contenedorEtiqueta"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_listadofact_txv_contenedorEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_contenedorValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txv_ordenCompra"
+                style="@style/TextViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_items_txv_ordenCompraEtiqueta"/>
+
+            <TextView
+                android:id="@+id/txv_ordenCompraValor"
+                style="@style/TextViewInfoResalta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+</LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/botones"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="bottom"
+      android:orientation="vertical" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="end"
+          android:orientation="horizontal" >
+
+          <Button
+              android:id="@+id/btn_agregarExcedente"
+              style="@style/Button"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/str_listadofact_btn_agregarExcedente" />
+
+          <Button
+              android:id="@+id/btn_forzarCierre"
+              style="@style/Button"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/str_listadofact_btn_forzarRevision" />
+
+      </LinearLayout>
+
+  </LinearLayout>
+<!-- 
+   <ListView
+        android:id="@+id/lv_lyt_listados_items"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+ 
+     <ExpandableListView 
+        android:id="@+id/lv_lyt_listados_items"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:childDivider="@drawable/separador"
+        android:divider="@drawable/separador"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:groupIndicator="@null"
+        />
+  -->
+      <ListView
+        android:id="@+id/lv_lyt_listados_items"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:paddingLeft="8dp"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:divider="@drawable/separador"
+        />
+     
+    </LinearLayout> 
+ </LinearLayout> 

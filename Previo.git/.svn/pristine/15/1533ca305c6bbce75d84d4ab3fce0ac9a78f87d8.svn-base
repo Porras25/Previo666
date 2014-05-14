@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco" >
+
+    <ListView
+        android:id="@+id/lstv_fotoVideoGalerias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/selectBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgb_eliminar"
+        android:background="@color/fondo_body"
+        android:divider="@drawable/separador"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imgb_eliminar"
+        style="@style/TitlePlayStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/txv_tituloGaleria"
+        style="@style/TitlePlayStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgb_eliminar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
